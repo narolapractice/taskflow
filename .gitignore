@@ -1,0 +1,39 @@
+# ── Dependencies ──
+node_modules/
+.pnp
+.pnp.js
+
+# ── Secrets (NEVER commit these) ──
+.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# ── Build outputs ──
+/build
+/dist
+
+# ── Logs ──
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor ──
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Testing ──
+/coverage
+
+# ── Misc ──
+.cache/
+*.tmp
